@@ -1,8 +1,8 @@
 import { tamagochi } from "./tamagochi";
 
 
-const feed = document.getElementById('feed');
-const play = document.getElementById('play');
+const feed = document.getElementById('feed') as HTMLButtonElement;
+const play = document.getElementById('play') as HTMLButtonElement;
 
 const newTama = new tamagochi("Mogly","rat")
 
