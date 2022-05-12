@@ -28,12 +28,15 @@ class tamagochi {
             alert(`${this.name} is dead :(`);
         }
     }
+    
      public feed():number {
         return this.hunger--;
      }   
+    
      public play():number{
          return this.happiness++;
      }
 }
+
 
 export { tamagochi }
