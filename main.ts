@@ -4,7 +4,7 @@ import { tamagochi } from "./tamagochi";
 const feed = document.getElementById('feed') as HTMLButtonElement;
 const play = document.getElementById('play') as HTMLButtonElement;
 
-const newTama = new tamagochi("Mogly","rat")
+const newTama :tamagochi = new tamagochi("Mogly","rat")
 
 
 feed.addEventListener('click', function(){
